@@ -44,7 +44,7 @@ def get_next_fixtures(team="Queens Park Rangers"):
 
 
 def main():
-    current_time = int(datetime.now().timestamp() + 122800)
+    current_time = int(datetime.now().timestamp())
     vidi = requests.get(LIVE_SCORES_API, headers=headers).json()
     vidiprinter_updated = vidi.get("lastUpdated")["timestamp"]
     fixtures = get_next_fixtures()
