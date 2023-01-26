@@ -8,12 +8,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 LIVE_SCORES_API = os.environ.get("LIVE_SCORES_API")
-headers = {'User-Agent': 'Mozilla/5.0'}
+headers = {"User-Agent": "Mozilla/5.0"}
 
 
 # Needed to remove text from day.
 def fmt_date(s):
-    return re.sub(r'(\d)(st|nd|rd|th)', r'\1', s)
+    return re.sub(r"(\d)(st|nd|rd|th)", r"\1", s)
 
 
 # Function to get next fixture.
@@ -23,7 +23,7 @@ def get_next_fixtures(team="Queens Park Rangers"):
 
     fixtures = requests.get(
         "https://www.qpr.co.uk/fixtures/first-team", headers=headers)
-    soup = BeautifulSoup(fixtures.text, 'html.parser')
+    soup = BeautifulSoup(fixtures.text, "html.parser")
 
     next_fixtures_section = soup.find("section", attrs={
         "class": "fixtures-banner"}).find("div", attrs={"class": "fixtures-banner__content"})
@@ -33,11 +33,11 @@ def get_next_fixtures(team="Queens Park Rangers"):
 
     return {
         "next": {
-            "date": int(datetime.timestamp(datetime.strptime(fmt_date(opponent_a_date.text.strip()), '%d %B %Y %H:%M %p'))),
+            "date": int(datetime.timestamp(datetime.strptime(fmt_date(opponent_a_date.text.strip()), "%d %B %Y %H:%M %p"))),
             "opponent": opponent_a.text
         },
         "after": {
-            "date": int(datetime.timestamp(datetime.strptime(fmt_date(opponent_b_date.text.strip()), '%d %B %Y %H:%M %p'))),
+            "date": int(datetime.timestamp(datetime.strptime(fmt_date(opponent_b_date.text.strip()), "%d %B %Y %H:%M %p"))),
             "opponent": opponent_b.text
         }
     }
