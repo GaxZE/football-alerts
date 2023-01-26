@@ -56,7 +56,7 @@ def main():
     vidi = requests.get(LIVE_SCORES_API, headers=headers).json()
     vidiprinter_updated = vidi.get("lastUpdated")["timestamp"]
     fixtures = get_next_fixtures()
-    if (game_on(fixtures["next"]["date"] + 5, fixtures["next"]["date"])):
+    if (game_on(current_time, fixtures["next"]["date"])):
         print("Hello world")
     else:
         print("No World?")
