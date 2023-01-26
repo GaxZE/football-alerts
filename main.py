@@ -8,9 +8,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 LIVE_SCORES_API = os.environ.get("LIVE_SCORES_API")
-
+headers = {'User-Agent': 'Mozilla/5.0'}
 
 # Needed to remove text from day.
+
+
 def fmt_date(s):
     return re.sub(r'(\d)(st|nd|rd|th)', r'\1', s)
 
@@ -20,7 +22,6 @@ def fmt_date(s):
 def get_next_fixture(team="Queens Park Rangers"):
     print(f"Getting next fixture for {team}")
 
-    headers = {'User-Agent': 'Mozilla/5.0'}
     fixtures = requests.get(
         "https://www.qpr.co.uk/fixtures/first-team", headers=headers)
     soup = BeautifulSoup(fixtures.text, 'html.parser')
@@ -34,8 +35,13 @@ def get_next_fixture(team="Queens Park Rangers"):
 
 
 def main():
+    vidi = requests.get(LIVE_SCORES_API, headers=headers).json()
+    vidiprinter_updated = vidi.get("lastUpdated")["timestamp"]
     next_match = get_next_fixture()
-    print(next_match["opponent"])
+    if(int(datetime.now().timestamp()) >= next_match["date"]):
+        print(True, "Game is being played")
+    else:
+        print(False, "Game is not yet started.")
 
 
 if __name__ == "__main__":
