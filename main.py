@@ -19,7 +19,7 @@ def fmt_date(s):
 # Function to get next fixture.
 # Return dictionary with opponent and epoch date/time of next match
 def get_next_fixtures(team="Queens Park Rangers"):
-    print(f"Getting next fixture for {team}")
+    print(f"Getting next fixtures for {team}")
 
     fixtures = requests.get(
         "https://www.qpr.co.uk/fixtures/first-team", headers=headers)
