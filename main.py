@@ -10,9 +10,8 @@ load_dotenv()
 LIVE_SCORES_API = os.environ.get("LIVE_SCORES_API")
 headers = {'User-Agent': 'Mozilla/5.0'}
 
+
 # Needed to remove text from day.
-
-
 def fmt_date(s):
     return re.sub(r'(\d)(st|nd|rd|th)', r'\1', s)
 
