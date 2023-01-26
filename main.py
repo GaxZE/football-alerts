@@ -18,29 +18,40 @@ def fmt_date(s):
 
 # Function to get next fixture.
 # Return dictionary with opponent and epoch date/time of next match
-def get_next_fixture(team="Queens Park Rangers"):
+def get_next_fixtures(team="Queens Park Rangers"):
     print(f"Getting next fixture for {team}")
 
     fixtures = requests.get(
         "https://www.qpr.co.uk/fixtures/first-team", headers=headers)
     soup = BeautifulSoup(fixtures.text, 'html.parser')
 
-    next_fixture_section = soup.find("section", attrs={
-        "class": "fixtures-banner"}).find("section", attrs={"class": "gamePromo"})
+    next_fixtures_section = soup.find("section", attrs={
+        "class": "fixtures-banner"}).find("div", attrs={"class": "fixtures-banner__content"})
 
-    next_opposition_team = next_fixture_section.find("h3").text.strip()
-    next_opposition_date = next_fixture_section.find("p").text.strip()
-    return {"date": int(datetime.timestamp(datetime.strptime(fmt_date(next_opposition_date), '%d %B %Y %H:%M %p'))), "opponent": next_opposition_team}
+    opponent_a, opponent_b = next_fixtures_section.findAll("h3")
+    opponent_a_date, opponent_b_date = next_fixtures_section.findAll("p")
+
+    return {
+        "next": {
+            "date": int(datetime.timestamp(datetime.strptime(fmt_date(opponent_a_date.text.strip()), '%d %B %Y %H:%M %p'))),
+            "opponent": opponent_a.text
+        },
+        "after": {
+            "date": int(datetime.timestamp(datetime.strptime(fmt_date(opponent_b_date.text.strip()), '%d %B %Y %H:%M %p'))),
+            "opponent": opponent_b.text
+        }
+    }
 
 
 def main():
+    current_time = int(datetime.now().timestamp() + 122800)
     vidi = requests.get(LIVE_SCORES_API, headers=headers).json()
     vidiprinter_updated = vidi.get("lastUpdated")["timestamp"]
-    next_match = get_next_fixture()
-    if(int(datetime.now().timestamp()) >= next_match["date"]):
+    fixtures = get_next_fixtures()
+    if (current_time >= fixtures["next"]["date"] and current_time < fixtures["next"]["date"] + 7200):
         print(True, "Game is being played")
     else:
-        print(False, "Game is not yet started.")
+        print("No game being played")
 
 
 if __name__ == "__main__":
