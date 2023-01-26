@@ -43,15 +43,23 @@ def get_next_fixtures(team="Queens Park Rangers"):
     }
 
 
+def game_on(current, next):
+    if (current >= next and current < next + 7200):
+        print("Game is being played")
+        return True
+    else:
+        print("No game being played")
+
+
 def main():
     current_time = int(datetime.now().timestamp())
     vidi = requests.get(LIVE_SCORES_API, headers=headers).json()
     vidiprinter_updated = vidi.get("lastUpdated")["timestamp"]
     fixtures = get_next_fixtures()
-    if (current_time >= fixtures["next"]["date"] and current_time < fixtures["next"]["date"] + 7200):
-        print(True, "Game is being played")
+    if (game_on(fixtures["next"]["date"] + 5, fixtures["next"]["date"])):
+        print("Hello world")
     else:
-        print("No game being played")
+        print("No World?")
 
 
 if __name__ == "__main__":
