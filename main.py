@@ -63,7 +63,7 @@ def format_message(item: object):
         scorer = item["event"]["player"]["name"]["forename"] + \
             " " + item["event"]["player"]["name"]["surname"]
         send_message(f"GOAL: {score}")
-        send_message(f"{scorer}({goal_time}) - {info})")
+        send_message(f"{scorer}({goal_time}) - {info}")
     elif (item["event"]["type"] == 6):
         send_message(f"HT: {score}")
     elif (item["event"]["type"] == 7):
