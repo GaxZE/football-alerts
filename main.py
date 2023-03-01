@@ -1,4 +1,3 @@
-
 from bs4 import BeautifulSoup
 import os
 import re
@@ -54,14 +53,11 @@ def game_on(current: float, next: float):
 
 
 def format_message(item: object):
-    score = item["teams"]["home"]["name"]["full"] + " " + str(item["teams"]["home"]["score"]) + \
-        "-" + str(item["teams"]["away"]["score"]) + " " +  \
-        item["teams"]["away"]["name"]["full"]
+    score = item["teams"]["home"]["name"]["full"] + " " + str(item["teams"]["home"]["score"]) + "-" + str(item["teams"]["away"]["score"]) + " " + item["teams"]["away"]["name"]["full"]
     if (item["event"]["type"] == 1):
         goal_time = item["event"]["minutes"]
         info = item["event"]["info"]
-        scorer = item["event"]["player"]["name"]["forename"] + \
-            " " + item["event"]["player"]["name"]["surname"]
+        scorer = item["event"]["player"]["name"]["forename"] + " " + item["event"]["player"]["name"]["surname"]
         send_message(f"GOAL: {score}")
         send_message(f"{scorer}({goal_time}) - {info}")
     elif (item["event"]["type"] == 6):
@@ -92,8 +88,7 @@ def main():
         if time.time() > end:
             break
         time.sleep(30)
-        live_scores_updated = requests.get(
-            LIVE_SCORES_API, headers=headers)
+        live_scores_updated = requests.get(LIVE_SCORES_API, headers=headers)
         parse_scores_updated = json.loads(live_scores_updated.text)
         check_for_updates = parse_scores_updated["lastUpdated"][
             "timestamp"]
