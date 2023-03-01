@@ -1,3 +1,5 @@
 python-dotenv
 bs4
 pyTelegramBotAPI
+fastapi
+uvicorn

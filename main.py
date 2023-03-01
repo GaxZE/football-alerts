@@ -67,13 +67,12 @@ def format_message(item: object):
 
 
 def send_message(message: str):
-    send_telegram_message(message, os.environ.get(
-        "CHAT_ID"), os.environ.get("BOT_TOKEN"))
+    send_telegram_message(message, os.environ.get("CHAT_ID"), os.environ.get("BOT_TOKEN"))
 
 
 def event_check(team: str, response: object, time: int):
     for item in response["items"]:
-        if (item["teams"]["home"]["name"]["full"] == team or item["teams"]["away"]["name"]["full"] == team):
+        if (str(item["teams"]["home"]["name"]["full"]) == team or str(item["teams"]["away"]["name"]["full"]) == team):
             if (item["event"]["timestamp"] > time):
                 format_message(item)
 
@@ -90,8 +89,7 @@ def main():
         time.sleep(30)
         live_scores_updated = requests.get(LIVE_SCORES_API, headers=headers)
         parse_scores_updated = json.loads(live_scores_updated.text)
-        check_for_updates = parse_scores_updated["lastUpdated"][
-            "timestamp"]
+        check_for_updates = parse_scores_updated["lastUpdated"]["timestamp"]
         if (init_check < check_for_updates):
             event_check("QPR", parse_scores_updated, init_check)
         else:
