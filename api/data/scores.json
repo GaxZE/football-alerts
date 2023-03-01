@@ -1,0 +1,1991 @@
+{
+    "lastUpdated": {
+        "timestamp": 1677621302399
+    },
+    "items": [
+        {
+            "id": 2533198,
+            "match": {
+                "id": 468095
+            },
+            "teams": {
+                "home": {
+                    "id": 226,
+                    "score": 1,
+                    "name": {
+                        "full": "Luton Town",
+                        "short": "Luton"
+                    }
+                },
+                "away": {
+                    "id": 704,
+                    "score": 2,
+                    "name": {
+                        "full": "Millwall",
+                        "short": "Millwall"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "CHA"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 154944,
+                    "name": {
+                        "initials": "E",
+                        "forename": "Elijah",
+                        "surname": "Adebayo"
+                    }
+                },
+                "info": "Right footed from close range",
+                "type": 1,
+                "timestamp": 1677618970000,
+                "minutes": "57:35"
+            }
+        },
+        {
+            "id": 2533200,
+            "match": {
+                "id": 469058
+            },
+            "teams": {
+                "home": {
+                    "id": 298,
+                    "score": 1,
+                    "name": {
+                        "full": "Portsmouth",
+                        "short": "Portsmth"
+                    }
+                },
+                "away": {
+                    "id": 555,
+                    "score": 1,
+                    "name": {
+                        "full": "Bolton Wanderers",
+                        "short": "Bolton"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 176864,
+                    "name": {
+                        "initials": "R",
+                        "forename": "Ryley",
+                        "surname": "Towler"
+                    }
+                },
+                "info": "Header from Inside the Box",
+                "type": 1,
+                "timestamp": 1677618996000,
+                "minutes": "72:40"
+            }
+        },
+        {
+            "id": 2533216,
+            "match": {
+                "id": 468629
+            },
+            "teams": {
+                "home": {
+                    "id": 419,
+                    "score": 2,
+                    "name": {
+                        "full": "AFC Wimbledon",
+                        "short": "Wimbledon"
+                    }
+                },
+                "away": {
+                    "id": 410,
+                    "score": 2,
+                    "name": {
+                        "full": "Stevenage",
+                        "short": "Stevenage"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L2"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 188789,
+                    "name": {
+                        "initials": "A",
+                        "forename": "Ali Ibrahim",
+                        "surname": "Al-Hamadi"
+                    }
+                },
+                "info": "Right footed from close range",
+                "type": 1,
+                "timestamp": 1677619200000,
+                "minutes": "73:25"
+            }
+        },
+        {
+            "id": 2533212,
+            "match": {
+                "id": 465504
+            },
+            "teams": {
+                "home": {
+                    "id": 254,
+                    "score": 0,
+                    "name": {
+                        "full": "Dundee",
+                        "short": "Dundee"
+                    }
+                },
+                "away": {
+                    "id": 214,
+                    "score": 2,
+                    "name": {
+                        "full": "Partick Thistle",
+                        "short": "Partick"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "SCC"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 1759,
+                    "name": {
+                        "initials": "B",
+                        "forename": "Brian",
+                        "surname": "Graham"
+                    }
+                },
+                "info": "Right footed from Inside the Box",
+                "type": 1,
+                "timestamp": 1677619204000,
+                "minutes": "74:50"
+            }
+        },
+        {
+            "id": 2533251,
+            "match": {
+                "id": 465504
+            },
+            "teams": {
+                "home": {
+                    "id": 254,
+                    "score": 1,
+                    "name": {
+                        "full": "Dundee",
+                        "short": "Dundee"
+                    }
+                },
+                "away": {
+                    "id": 214,
+                    "score": 2,
+                    "name": {
+                        "full": "Partick Thistle",
+                        "short": "Partick"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "SCC"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 120236,
+                    "name": {
+                        "initials": "J",
+                        "forename": "Jordan",
+                        "surname": "McGhee"
+                    }
+                },
+                "info": "Right footed from Inside the Box",
+                "type": 1,
+                "timestamp": 1677619498000,
+                "minutes": "79:44"
+            }
+        },
+        {
+            "id": 2533252,
+            "match": {
+                "id": 473524
+            },
+            "teams": {
+                "home": {
+                    "id": 483,
+                    "score": 0,
+                    "name": {
+                        "full": "Yeovil Town",
+                        "short": "Yeovil"
+                    }
+                },
+                "away": {
+                    "id": 352,
+                    "score": 1,
+                    "name": {
+                        "full": "Altrincham",
+                        "short": "Altrincham"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 148263,
+                    "name": {
+                        "initials": "J",
+                        "forename": "James",
+                        "surname": "Jones"
+                    }
+                },
+                "info": "professional foul handball",
+                "type": 5,
+                "timestamp": 1677619504000,
+                "minutes": "77:00"
+            }
+        },
+        {
+            "id": 2533304,
+            "match": {
+                "id": 465504
+            },
+            "teams": {
+                "home": {
+                    "id": 254,
+                    "score": 1,
+                    "name": {
+                        "full": "Dundee",
+                        "short": "Dundee"
+                    }
+                },
+                "away": {
+                    "id": 214,
+                    "score": 3,
+                    "name": {
+                        "full": "Partick Thistle",
+                        "short": "Partick"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "SCC"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 143299,
+                    "name": {
+                        "initials": "S",
+                        "forename": "Scott",
+                        "surname": "Tiffoney"
+                    }
+                },
+                "info": "Right footed from Inside the Box",
+                "type": 1,
+                "timestamp": 1677619508000,
+                "minutes": "79:54"
+            }
+        },
+        {
+            "id": 2533257,
+            "match": {
+                "id": 473524
+            },
+            "teams": {
+                "home": {
+                    "id": 483,
+                    "score": 1,
+                    "name": {
+                        "full": "Yeovil Town",
+                        "short": "Yeovil"
+                    }
+                },
+                "away": {
+                    "id": 352,
+                    "score": 1,
+                    "name": {
+                        "full": "Altrincham",
+                        "short": "Altrincham"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 146329,
+                    "name": {
+                        "initials": "J",
+                        "forename": "Jordan",
+                        "surname": "Maguire-Drew"
+                    }
+                },
+                "info": "",
+                "type": 2,
+                "timestamp": 1677619533000,
+                "minutes": "78:00"
+            }
+        },
+        {
+            "id": 2533267,
+            "match": {
+                "id": 470133
+            },
+            "teams": {
+                "home": {
+                    "id": 54,
+                    "score": 4,
+                    "name": {
+                        "full": "Juventus",
+                        "short": "Juventus"
+                    }
+                },
+                "away": {
+                    "id": 747,
+                    "score": 2,
+                    "name": {
+                        "full": "Torino",
+                        "short": "Torino"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "Ser A"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 113352,
+                    "name": {
+                        "initials": "A",
+                        "forename": "Adrien",
+                        "surname": "Rabiot"
+                    }
+                },
+                "info": "Right footed from close range",
+                "type": 1,
+                "timestamp": 1677619557000,
+                "minutes": "80:00"
+            }
+        },
+        {
+            "id": 2533273,
+            "match": {
+                "id": 473473
+            },
+            "teams": {
+                "home": {
+                    "id": 402,
+                    "score": 1,
+                    "name": {
+                        "full": "Torquay United",
+                        "short": "Torquay"
+                    }
+                },
+                "away": {
+                    "id": 233,
+                    "score": 1,
+                    "name": {
+                        "full": "Bromley",
+                        "short": "Bromley "
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 156037,
+                    "name": {
+                        "initials": "A",
+                        "forename": "Aaron",
+                        "surname": "Jarvis"
+                    }
+                },
+                "info": "",
+                "type": 1,
+                "timestamp": 1677619613000,
+                "minutes": "78:00"
+            }
+        },
+        {
+            "id": 2533282,
+            "match": {
+                "id": 469058
+            },
+            "teams": {
+                "home": {
+                    "id": 298,
+                    "score": 2,
+                    "name": {
+                        "full": "Portsmouth",
+                        "short": "Portsmth"
+                    }
+                },
+                "away": {
+                    "id": 555,
+                    "score": 1,
+                    "name": {
+                        "full": "Bolton Wanderers",
+                        "short": "Bolton"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 176864,
+                    "name": {
+                        "initials": "R",
+                        "forename": "Ryley",
+                        "surname": "Towler"
+                    }
+                },
+                "info": "Left footed from close range",
+                "type": 1,
+                "timestamp": 1677619645000,
+                "minutes": "83:29"
+            }
+        },
+        {
+            "id": 2533290,
+            "match": {
+                "id": 465698
+            },
+            "teams": {
+                "home": {
+                    "id": 3074,
+                    "score": 1,
+                    "name": {
+                        "full": "Bonnyrigg Rose",
+                        "short": "Bonnyrigg Rose"
+                    }
+                },
+                "away": {
+                    "id": 207,
+                    "score": 1,
+                    "name": {
+                        "full": "Forfar Athletic",
+                        "short": "Forfar "
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "SC2"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 112924,
+                    "name": {
+                        "initials": "K",
+                        "forename": "Kieran",
+                        "surname": "McGachie"
+                    }
+                },
+                "info": "Right footed from close range",
+                "type": 1,
+                "timestamp": 1677619711000,
+                "minutes": "86:41"
+            }
+        },
+        {
+            "id": 2533294,
+            "match": {
+                "id": 468629
+            },
+            "teams": {
+                "home": {
+                    "id": 419,
+                    "score": 2,
+                    "name": {
+                        "full": "AFC Wimbledon",
+                        "short": "Wimbledon"
+                    }
+                },
+                "away": {
+                    "id": 410,
+                    "score": 3,
+                    "name": {
+                        "full": "Stevenage",
+                        "short": "Stevenage"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L2"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 103627,
+                    "name": {
+                        "initials": "L",
+                        "forename": "Luke",
+                        "surname": "Norris"
+                    }
+                },
+                "info": "Right footed from a narrow angle on the right inside box",
+                "type": 1,
+                "timestamp": 1677619727000,
+                "minutes": "82:12"
+            }
+        },
+        {
+            "id": 2533310,
+            "match": {
+                "id": 469058
+            },
+            "teams": {
+                "home": {
+                    "id": 298,
+                    "score": 3,
+                    "name": {
+                        "full": "Portsmouth",
+                        "short": "Portsmth"
+                    }
+                },
+                "away": {
+                    "id": 555,
+                    "score": 1,
+                    "name": {
+                        "full": "Bolton Wanderers",
+                        "short": "Bolton"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 127001,
+                    "name": {
+                        "initials": "C",
+                        "forename": "Colby",
+                        "surname": "Bishop"
+                    }
+                },
+                "info": "Right footed from Inside the Box",
+                "type": 1,
+                "timestamp": 1677619814000,
+                "minutes": "86:18"
+            }
+        },
+        {
+            "id": 2533305,
+            "match": {
+                "id": 473473
+            },
+            "teams": {
+                "home": {
+                    "id": 402,
+                    "score": 1,
+                    "name": {
+                        "full": "Torquay United",
+                        "short": "Torquay"
+                    }
+                },
+                "away": {
+                    "id": 233,
+                    "score": 2,
+                    "name": {
+                        "full": "Bromley",
+                        "short": "Bromley "
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 74413,
+                    "name": {
+                        "initials": "A",
+                        "forename": "Adam",
+                        "surname": "Marriott"
+                    }
+                },
+                "info": "",
+                "type": 2,
+                "timestamp": 1677619835000,
+                "minutes": "82:00"
+            }
+        },
+        {
+            "id": 2533312,
+            "match": {
+                "id": 481125
+            },
+            "teams": {
+                "home": {
+                    "id": 152,
+                    "score": 1,
+                    "name": {
+                        "full": "Leicester City",
+                        "short": "Leicester"
+                    }
+                },
+                "away": {
+                    "id": 262,
+                    "score": 2,
+                    "name": {
+                        "full": "Blackburn Rovers",
+                        "short": "Blackburn"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "FAC"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677619852000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533316,
+            "match": {
+                "id": 469053
+            },
+            "teams": {
+                "home": {
+                    "id": 181,
+                    "score": 1,
+                    "name": {
+                        "full": "Lincoln City",
+                        "short": "Lincoln "
+                    }
+                },
+                "away": {
+                    "id": 423,
+                    "score": 1,
+                    "name": {
+                        "full": "Milton Keynes Dons",
+                        "short": "MK Dons"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 162108,
+                    "name": {
+                        "initials": "P",
+                        "forename": "Paris",
+                        "surname": "Maghoma"
+                    }
+                },
+                "info": "Right footed from Inside the Box",
+                "type": 1,
+                "timestamp": 1677619860000,
+                "minutes": "88:55"
+            }
+        },
+        {
+            "id": 2533325,
+            "match": {
+                "id": 481124
+            },
+            "teams": {
+                "home": {
+                    "id": 236,
+                    "score": 0,
+                    "name": {
+                        "full": "Bristol City",
+                        "short": "Bristol C"
+                    }
+                },
+                "away": {
+                    "id": 345,
+                    "score": 2,
+                    "name": {
+                        "full": "Manchester City",
+                        "short": "Man City"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "FAC"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 148992,
+                    "name": {
+                        "initials": "P",
+                        "forename": "Phil",
+                        "surname": "Foden"
+                    }
+                },
+                "info": "Left footed from Inside the Box",
+                "type": 1,
+                "timestamp": 1677619972000,
+                "minutes": "73:47"
+            }
+        },
+        {
+            "id": 2533346,
+            "match": {
+                "id": 469053
+            },
+            "teams": {
+                "home": {
+                    "id": 181,
+                    "score": 1,
+                    "name": {
+                        "full": "Lincoln City",
+                        "short": "Lincoln "
+                    }
+                },
+                "away": {
+                    "id": 423,
+                    "score": 1,
+                    "name": {
+                        "full": "Milton Keynes Dons",
+                        "short": "MK Dons"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620237000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533350,
+            "match": {
+                "id": 468639
+            },
+            "teams": {
+                "home": {
+                    "id": 196,
+                    "score": 1,
+                    "name": {
+                        "full": "Tranmere Rovers",
+                        "short": "Tranmere"
+                    }
+                },
+                "away": {
+                    "id": 261,
+                    "score": 0,
+                    "name": {
+                        "full": "Crawley Town",
+                        "short": "Crawley"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L2"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620269000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533352,
+            "match": {
+                "id": 473519
+            },
+            "teams": {
+                "home": {
+                    "id": 769,
+                    "score": 2,
+                    "name": {
+                        "full": "Maidenhead United",
+                        "short": "Maidenhead"
+                    }
+                },
+                "away": {
+                    "id": 249,
+                    "score": 1,
+                    "name": {
+                        "full": "Dagenham & Redbridge",
+                        "short": "Dag + Red"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620278000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533357,
+            "match": {
+                "id": 468167
+            },
+            "teams": {
+                "home": {
+                    "id": 436,
+                    "score": 0,
+                    "name": {
+                        "full": "Preston North End",
+                        "short": "Preston"
+                    }
+                },
+                "away": {
+                    "id": 571,
+                    "score": 0,
+                    "name": {
+                        "full": "Coventry City",
+                        "short": "Coventry"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "CHA"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620331000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533358,
+            "match": {
+                "id": 465659
+            },
+            "teams": {
+                "home": {
+                    "id": 394,
+                    "score": 1,
+                    "name": {
+                        "full": "Dumbarton",
+                        "short": "Dumbarton"
+                    }
+                },
+                "away": {
+                    "id": 417,
+                    "score": 0,
+                    "name": {
+                        "full": "Stenhousemuir",
+                        "short": "Stenh'muir"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "SC2"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620336000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533375,
+            "match": {
+                "id": 469058
+            },
+            "teams": {
+                "home": {
+                    "id": 298,
+                    "score": 3,
+                    "name": {
+                        "full": "Portsmouth",
+                        "short": "Portsmth"
+                    }
+                },
+                "away": {
+                    "id": 555,
+                    "score": 1,
+                    "name": {
+                        "full": "Bolton Wanderers",
+                        "short": "Bolton"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620344000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533362,
+            "match": {
+                "id": 473525
+            },
+            "teams": {
+                "home": {
+                    "id": 225,
+                    "score": 1,
+                    "name": {
+                        "full": "Boreham Wood",
+                        "short": "Boreham Wd"
+                    }
+                },
+                "away": {
+                    "id": 6961,
+                    "score": 0,
+                    "name": {
+                        "full": "Dorking Wanderers",
+                        "short": "Dorking Wanderers"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620351000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533364,
+            "match": {
+                "id": 469051
+            },
+            "teams": {
+                "home": {
+                    "id": 295,
+                    "score": 2,
+                    "name": {
+                        "full": "Derby County",
+                        "short": "Derby"
+                    }
+                },
+                "away": {
+                    "id": 534,
+                    "score": 0,
+                    "name": {
+                        "full": "Cheltenham Town",
+                        "short": "Cheltenham"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620372000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533380,
+            "match": {
+                "id": 481129
+            },
+            "teams": {
+                "home": {
+                    "id": 407,
+                    "score": 2,
+                    "name": {
+                        "full": "Fulham",
+                        "short": "Fulham"
+                    }
+                },
+                "away": {
+                    "id": 183,
+                    "score": 0,
+                    "name": {
+                        "full": "Leeds United",
+                        "short": "Leeds"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "FAC"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620377000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533365,
+            "match": {
+                "id": 473561
+            },
+            "teams": {
+                "home": {
+                    "id": 412,
+                    "score": 1,
+                    "name": {
+                        "full": "Barnet",
+                        "short": "Barnet"
+                    }
+                },
+                "away": {
+                    "id": 427,
+                    "score": 3,
+                    "name": {
+                        "full": "Oldham Athletic",
+                        "short": "Oldham"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 118900,
+                    "name": {
+                        "initials": "P",
+                        "forename": "Peter",
+                        "surname": "Clarke"
+                    }
+                },
+                "info": "",
+                "type": 1,
+                "timestamp": 1677620377000,
+                "minutes": "90:00(1:00)"
+            }
+        },
+        {
+            "id": 2533368,
+            "match": {
+                "id": 468622
+            },
+            "teams": {
+                "home": {
+                    "id": 180,
+                    "score": 1,
+                    "name": {
+                        "full": "Harrogate Town",
+                        "short": "Harrogate T"
+                    }
+                },
+                "away": {
+                    "id": 533,
+                    "score": 1,
+                    "name": {
+                        "full": "Northampton Town",
+                        "short": "Northampton"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L2"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620381000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533371,
+            "match": {
+                "id": 481124
+            },
+            "teams": {
+                "home": {
+                    "id": 236,
+                    "score": 0,
+                    "name": {
+                        "full": "Bristol City",
+                        "short": "Bristol C"
+                    }
+                },
+                "away": {
+                    "id": 345,
+                    "score": 3,
+                    "name": {
+                        "full": "Manchester City",
+                        "short": "Man City"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "FAC"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 72603,
+                    "name": {
+                        "initials": "K",
+                        "forename": "Kevin",
+                        "surname": "De Bruyne"
+                    }
+                },
+                "info": "Right footed from the centre outside the box",
+                "type": 1,
+                "timestamp": 1677620389000,
+                "minutes": "80:43"
+            }
+        },
+        {
+            "id": 2533373,
+            "match": {
+                "id": 473568
+            },
+            "teams": {
+                "home": {
+                    "id": 952,
+                    "score": 1,
+                    "name": {
+                        "full": "Maidstone Utd",
+                        "short": "Maidstone Utd"
+                    }
+                },
+                "away": {
+                    "id": 398,
+                    "score": 1,
+                    "name": {
+                        "full": "Scunthorpe United",
+                        "short": "Scunthorpe"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620417000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533383,
+            "match": {
+                "id": 465504
+            },
+            "teams": {
+                "home": {
+                    "id": 254,
+                    "score": 1,
+                    "name": {
+                        "full": "Dundee",
+                        "short": "Dundee"
+                    }
+                },
+                "away": {
+                    "id": 214,
+                    "score": 3,
+                    "name": {
+                        "full": "Partick Thistle",
+                        "short": "Partick"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "SCC"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620471000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533386,
+            "match": {
+                "id": 473524
+            },
+            "teams": {
+                "home": {
+                    "id": 483,
+                    "score": 1,
+                    "name": {
+                        "full": "Yeovil Town",
+                        "short": "Yeovil"
+                    }
+                },
+                "away": {
+                    "id": 352,
+                    "score": 1,
+                    "name": {
+                        "full": "Altrincham",
+                        "short": "Altrincham"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620477000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533387,
+            "match": {
+                "id": 469260
+            },
+            "teams": {
+                "home": {
+                    "id": 630,
+                    "score": 0,
+                    "name": {
+                        "full": "Peterborough United",
+                        "short": "Peterboro"
+                    }
+                },
+                "away": {
+                    "id": 154,
+                    "score": 0,
+                    "name": {
+                        "full": "Charlton Athletic",
+                        "short": "Charlton"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L1"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620481000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533388,
+            "match": {
+                "id": 473517
+            },
+            "teams": {
+                "home": {
+                    "id": 1566,
+                    "score": 4,
+                    "name": {
+                        "full": "FC Halifax",
+                        "short": "Halifax"
+                    }
+                },
+                "away": {
+                    "id": 538,
+                    "score": 0,
+                    "name": {
+                        "full": "Wealdstone",
+                        "short": "Wealdstone"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 194423,
+                    "name": {
+                        "initials": "M",
+                        "forename": "Millenic",
+                        "surname": "Alli"
+                    }
+                },
+                "info": "",
+                "type": 1,
+                "timestamp": 1677620482000,
+                "minutes": "90:00(2:00)"
+            }
+        },
+        {
+            "id": 2533391,
+            "match": {
+                "id": 468701
+            },
+            "teams": {
+                "home": {
+                    "id": 272,
+                    "score": 1,
+                    "name": {
+                        "full": "Barrow",
+                        "short": "Barrow"
+                    }
+                },
+                "away": {
+                    "id": 3515,
+                    "score": 1,
+                    "name": {
+                        "full": "Salford City",
+                        "short": "Salford City"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L2"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620496000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533390,
+            "match": {
+                "id": 465698
+            },
+            "teams": {
+                "home": {
+                    "id": 3074,
+                    "score": 1,
+                    "name": {
+                        "full": "Bonnyrigg Rose",
+                        "short": "Bonnyrigg Rose"
+                    }
+                },
+                "away": {
+                    "id": 207,
+                    "score": 1,
+                    "name": {
+                        "full": "Forfar Athletic",
+                        "short": "Forfar "
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "SC2"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620498000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533393,
+            "match": {
+                "id": 470133
+            },
+            "teams": {
+                "home": {
+                    "id": 54,
+                    "score": 4,
+                    "name": {
+                        "full": "Juventus",
+                        "short": "Juventus"
+                    }
+                },
+                "away": {
+                    "id": 747,
+                    "score": 2,
+                    "name": {
+                        "full": "Torino",
+                        "short": "Torino"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "Ser A"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620542000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533394,
+            "match": {
+                "id": 468620
+            },
+            "teams": {
+                "home": {
+                    "id": 356,
+                    "score": 0,
+                    "name": {
+                        "full": "Gillingham",
+                        "short": "Gillingham"
+                    }
+                },
+                "away": {
+                    "id": 448,
+                    "score": 2,
+                    "name": {
+                        "full": "Bradford City",
+                        "short": "Bradford"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L2"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620568000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533397,
+            "match": {
+                "id": 468629
+            },
+            "teams": {
+                "home": {
+                    "id": 419,
+                    "score": 2,
+                    "name": {
+                        "full": "AFC Wimbledon",
+                        "short": "Wimbledon"
+                    }
+                },
+                "away": {
+                    "id": 410,
+                    "score": 3,
+                    "name": {
+                        "full": "Stevenage",
+                        "short": "Stevenage"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "L2"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620595000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533399,
+            "match": {
+                "id": 473561
+            },
+            "teams": {
+                "home": {
+                    "id": 412,
+                    "score": 1,
+                    "name": {
+                        "full": "Barnet",
+                        "short": "Barnet"
+                    }
+                },
+                "away": {
+                    "id": 427,
+                    "score": 3,
+                    "name": {
+                        "full": "Oldham Athletic",
+                        "short": "Oldham"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620631000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533401,
+            "match": {
+                "id": 473516
+            },
+            "teams": {
+                "home": {
+                    "id": 192,
+                    "score": 1,
+                    "name": {
+                        "full": "Eastleigh",
+                        "short": "Eastleigh"
+                    }
+                },
+                "away": {
+                    "id": 140,
+                    "score": 0,
+                    "name": {
+                        "full": "York City",
+                        "short": "York City"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620653000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533403,
+            "match": {
+                "id": 473475
+            },
+            "teams": {
+                "home": {
+                    "id": 205,
+                    "score": 2,
+                    "name": {
+                        "full": "Wrexham",
+                        "short": "Wrexham"
+                    }
+                },
+                "away": {
+                    "id": 447,
+                    "score": 1,
+                    "name": {
+                        "full": "Chesterfield",
+                        "short": "Chesterfld"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 2,
+                "player": {
+                    "id": 115286,
+                    "name": {
+                        "initials": "R",
+                        "forename": "Ryan",
+                        "surname": "Colclough"
+                    }
+                },
+                "info": "",
+                "type": 1,
+                "timestamp": 1677620657000,
+                "minutes": "90:00(5:00)"
+            }
+        },
+        {
+            "id": 2533405,
+            "match": {
+                "id": 473517
+            },
+            "teams": {
+                "home": {
+                    "id": 1566,
+                    "score": 5,
+                    "name": {
+                        "full": "FC Halifax",
+                        "short": "Halifax"
+                    }
+                },
+                "away": {
+                    "id": 538,
+                    "score": 0,
+                    "name": {
+                        "full": "Wealdstone",
+                        "short": "Wealdstone"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 156265,
+                    "name": {
+                        "initials": "T",
+                        "forename": "Tylor",
+                        "surname": "Golden"
+                    }
+                },
+                "info": "",
+                "type": 1,
+                "timestamp": 1677620687000,
+                "minutes": "90:00(5:00)"
+            }
+        },
+        {
+            "id": 2533408,
+            "match": {
+                "id": 473475
+            },
+            "teams": {
+                "home": {
+                    "id": 205,
+                    "score": 2,
+                    "name": {
+                        "full": "Wrexham",
+                        "short": "Wrexham"
+                    }
+                },
+                "away": {
+                    "id": 447,
+                    "score": 1,
+                    "name": {
+                        "full": "Chesterfield",
+                        "short": "Chesterfld"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620701000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533409,
+            "match": {
+                "id": 473517
+            },
+            "teams": {
+                "home": {
+                    "id": 1566,
+                    "score": 5,
+                    "name": {
+                        "full": "FC Halifax",
+                        "short": "Halifax"
+                    }
+                },
+                "away": {
+                    "id": 538,
+                    "score": 0,
+                    "name": {
+                        "full": "Wealdstone",
+                        "short": "Wealdstone"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620702000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533410,
+            "match": {
+                "id": 473473
+            },
+            "teams": {
+                "home": {
+                    "id": 402,
+                    "score": 1,
+                    "name": {
+                        "full": "Torquay United",
+                        "short": "Torquay"
+                    }
+                },
+                "away": {
+                    "id": 233,
+                    "score": 2,
+                    "name": {
+                        "full": "Bromley",
+                        "short": "Bromley "
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "NL"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677620706000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533414,
+            "match": {
+                "id": 468095
+            },
+            "teams": {
+                "home": {
+                    "id": 226,
+                    "score": 2,
+                    "name": {
+                        "full": "Luton Town",
+                        "short": "Luton"
+                    }
+                },
+                "away": {
+                    "id": 704,
+                    "score": 2,
+                    "name": {
+                        "full": "Millwall",
+                        "short": "Millwall"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "CHA"
+                }
+            },
+            "event": {
+                "teamId": 1,
+                "player": {
+                    "id": 96489,
+                    "name": {
+                        "initials": "L",
+                        "forename": "Luke",
+                        "surname": "Berry"
+                    }
+                },
+                "info": "Left footed from the centre outside the box",
+                "type": 1,
+                "timestamp": 1677620729000,
+                "minutes": "86:54"
+            }
+        },
+        {
+            "id": 2533422,
+            "match": {
+                "id": 468095
+            },
+            "teams": {
+                "home": {
+                    "id": 226,
+                    "score": 2,
+                    "name": {
+                        "full": "Luton Town",
+                        "short": "Luton"
+                    }
+                },
+                "away": {
+                    "id": 704,
+                    "score": 2,
+                    "name": {
+                        "full": "Millwall",
+                        "short": "Millwall"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "CHA"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677621170000,
+                "minutes": "90:00"
+            }
+        },
+        {
+            "id": 2533423,
+            "match": {
+                "id": 481124
+            },
+            "teams": {
+                "home": {
+                    "id": 236,
+                    "score": 0,
+                    "name": {
+                        "full": "Bristol City",
+                        "short": "Bristol C"
+                    }
+                },
+                "away": {
+                    "id": 345,
+                    "score": 3,
+                    "name": {
+                        "full": "Manchester City",
+                        "short": "Man City"
+                    }
+                }
+            },
+            "competition": {
+                "name": {
+                    "code": "FAC"
+                }
+            },
+            "event": {
+                "teamId": 0,
+                "info": "",
+                "type": 7,
+                "timestamp": 1677621300000,
+                "minutes": "90:00"
+            }
+        }
+    ]
+}
