@@ -1,4 +1,4 @@
-import os, requests, json
+import os, requests
 from dotenv import load_dotenv
 
 load_dotenv(verbose=True, override=True)
@@ -78,14 +78,3 @@ def format_message(data):
 
     return messages
 
-
-
-# Load JSON file and parse it
-with open("data/scores.json", "r") as file:
-    data = json.load(file)  # Convert JSON to dictionary
-
-# Call the function with the parsed JSON data
-message = format_message(data)
-
-# Print the result
-print(f"{message}\n")
