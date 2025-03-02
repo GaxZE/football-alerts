@@ -52,13 +52,14 @@ def format_message(data):
         score_line = f"{home_score} - {away_score}"
         event_type = event.get("type")
 
-        if event_type == 11:  # Goal
+        if event_type in {1, 2, 3}:  # Goal
             team_id = event.get("teamId")
             team_name = home_team if team_id == 1 else away_team
             player = event.get("player", {}).get("name", {})
             player_name = f"{player.get("forename", "Unknown")} {player.get("surname", "Player")}".strip()
-            info = event.get("info", "")
-            messages = f"*GOAL*: {home_team} {score_line} {away_team}\n{player_name} {minutes}\n{info}"
+            if event_type == 2:
+                minutes += " (Pen)"
+            messages = f"*GOAL*: {home_team} {score_line} {away_team}\n{player_name} {minutes}"
 
         elif event_type == 5:  # Player sent off
             team_id = event.get("teamId")
