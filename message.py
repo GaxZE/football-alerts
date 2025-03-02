@@ -57,8 +57,11 @@ def format_message(data):
             team_name = home_team if team_id == 1 else away_team
             player = event.get("player", {}).get("name", {})
             player_name = f"{player.get("forename", "Unknown")} {player.get("surname", "Player")}".strip()
-            if event_type == 2:
-                minutes += " (Pen)"
+            EVENT_TYPE_SUFFIXES = {
+                2: " (Pen)",
+                3: " (OG)"
+            }
+            minutes += EVENT_TYPE_SUFFIXES.get(event_type, "")
             messages = f"*GOAL*: {home_team} {score_line} {away_team}\n{player_name} {minutes}"
 
         elif event_type == 5:  # Player sent off
@@ -77,4 +80,3 @@ def format_message(data):
             messages = f"*EVENT* ({competition}) [{minutes}] {event}"
 
     return messages
-
