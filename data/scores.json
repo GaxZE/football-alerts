@@ -1,37 +1,32 @@
 {
-  "lastUpdated": { "timestamp": 1740921791712 },
-  "items": [
-    {
-      "id": 3083493,
-      "match": { "id": 525003 },
-      "teams": {
-        "home": {
-          "id": 1763,
-          "score": 0,
-          "name": { "full": "Sporting Kansas City", "short": "Sporting KC" }
-        },
-        "away": {
-          "id": 1767,
-          "score": 1,
-          "name": { "full": "San Jose Earthquakes", "short": "SJ E'Quakes" }
-        }
-      },
-      "competition": { "name": { "code": "MLS" } },
-      "event": {
-        "teamId": 2,
-        "player": {
-          "id": 154686,
-          "name": {
-            "initials": "C",
-            "forename": "Cristian",
-            "surname": "Arango"
-          }
-        },
-        "info": "Left footed from Inside the Box",
-        "type": 3,
-        "timestamp": 1740879805000,
-        "minutes": "2:39"
-      }
+  "id": 3083493,
+  "match": { "id": 525003 },
+  "teams": {
+    "home": {
+      "id": 1763,
+      "score": 0,
+      "name": { "full": "Sporting Kansas City", "short": "Sporting KC" }
+    },
+    "away": {
+      "id": 1767,
+      "score": 1,
+      "name": { "full": "San Jose Earthquakes", "short": "SJ E'Quakes" }
     }
-  ]
+  },
+  "competition": { "name": { "code": "MLS" } },
+  "event": {
+    "teamId": 2,
+    "player": {
+      "id": 154686,
+      "name": {
+        "initials": "C",
+        "forename": "Cristian",
+        "surname": "Arango"
+      }
+    },
+    "info": "Left footed from Inside the Box",
+    "type": 7,
+    "timestamp": 1740879805000,
+    "minutes": "2:39"
+  }
 }
